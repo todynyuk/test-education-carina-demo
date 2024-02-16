@@ -47,4 +47,10 @@ public abstract class HomePageBase extends AbstractPage {
     public abstract boolean isChosenNameCorrect(String name);
 
     public abstract ProductDetailsPageBase clickOnProductPage(int index);
+
+    public abstract boolean isFilterButtonPresent();
+
+    public abstract void clickOnHamburgerMenu();
+
+    public abstract LoginPageBase clickOnSingInButton();
 }
